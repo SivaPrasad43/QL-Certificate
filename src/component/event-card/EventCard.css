@@ -1,0 +1,32 @@
+.card{
+    margin: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: white;
+    transition: 0.3s;
+    border: 1px solid rgb(194, 194, 194);
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s;
+    transform: scale(1.02);
+}
+h3{
+    width: min-content;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+h1{
+    font-size: 21px;
+}
+.Workshop{
+    background-color: #dfbbf2;
+}
+.Lecture{
+    background-color: #75ffc3;
+}
+.Training{
+    background-color: #a4ceff;
+}
