@@ -41,6 +41,6 @@
 }
 @media only screen and (max-width: 768px) {
     .ListContainer{
-        padding-top: 15%;
+        padding-top: 15%; 
     }
 }
