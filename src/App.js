@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import slug from 'slug';
 import './App.css';
 import EventCard from './component/event-card/EventCard';
 // import { useEffect,useState } from 'react';
@@ -47,18 +49,24 @@ function App() {
   }
   let FilterData = categoryFilter(data)
   return (
-    <div className="App"> 
-     <div className="event-container">
-      {
-        // console.log(FilterData)
-        FilterData.map((item) =>(
-          [...item.event].map((eventItem)=>(
-              <EventCard category={item.category} event={eventItem}/>
-            ))
-        ))
-      }
-     </div>
-    </div>
+      <div className="App"> 
+        <h1 style={{textAlign:"center"}}>Quasso Liberum 10 <br/> Certificate Download</h1>
+      <div className="event-container">
+        {
+          // console.log(FilterData)
+          FilterData.map((item) =>(
+            [...item.event].map((eventItem,index)=>{
+              let slugLink = slug(eventItem)
+              return (
+                <Link className='link' key={index} to={`/list/${slugLink}?category=${item.category}`}>
+                  <EventCard category={item.category} event={eventItem}/>
+                </Link>
+              )
+            })
+          ))
+        }
+      </div>
+      </div>
   );
 }
 
