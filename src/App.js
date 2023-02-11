@@ -26,6 +26,10 @@ function App() {
         category:"Lecture",
         event:new Set()
       },
+      {
+        category:"Competition",
+        event:new Set()
+      },
     ]
     data.forEach((item)=>{
       tuple.forEach((tupleItem)=>{
