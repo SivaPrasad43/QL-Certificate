@@ -13453,7 +13453,7 @@ export const data = [
         "name": "Jerisha Linda",
         "email": "jerishalinda123@gmail.com",
         "category": "Lecture",
-        "event": "Highway Engineering : Interesting Facts and Beyond",
+        "event": "Highway Planning, Design and Construction",
         "college": "College of Engineering Vadakara",
         "certificateType": "Participant"
       },
@@ -13468,7 +13468,7 @@ export const data = [
         "name": "Krishna BR",
         "email": "krishnabrsivam@gmail.com",
         "category": "Lecture",
-        "event": "Ethical Hacking & Cyber Security",
+        "event": "Ethical hacking & Cybersecurity",
         "college": "College of Engineering Vadakara",
         "certificateType": "Participant"
       },
@@ -13483,7 +13483,7 @@ export const data = [
         "name": "Shravan Anil",
         "email": "shravananil02@gmail.com",
         "category": "Lecture",
-        "event": "Ethical Hacking & Cyber Security",
+        "event": "Ethical hacking & Cybersecurity",
         "college": "College of Engineering Vadakara",
         "certificateType": "Participant"
       },
@@ -13513,7 +13513,7 @@ export const data = [
         "name": "Aagna TK",
         "email": "aagnatk2002@gmail.com",
         "category": "Lecture",
-        "event": "Ethical Hacking & Cyber Security",
+        "event": "Ethical hacking & Cybersecurity",
         "college": "College of Engineering Vadakara",
         "certificateType": "Participant"
       },
@@ -13528,7 +13528,7 @@ export const data = [
           "name": "Muhammed Basil",
           "email": "basil.vatakara@gmail.com",
           "category": "Lecture",
-          "event": "Entrepreneurship and Digital Marketing",
+          "event": "Entrepreneurship & Digital Marketing",
           "college": "College of Engineering Vadakara",
           "certificateType": "Participant"
         },
@@ -13573,7 +13573,7 @@ export const data = [
           "name": "Abhirami M",
           "email": "abhiramichakkad1999@gmail.com",
           "category": "Lecture",
-          "event": "Entrepreneurship and Digital Marketing",
+          "event": "Entrepreneurship & Digital Marketing",
           "college": "College of Engineering Vadakara",
           "certificateType": "Participant"
         }
